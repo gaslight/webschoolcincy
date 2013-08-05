@@ -26,10 +26,8 @@ window.CodeSchool = {
     
     //Set star size
     $('.stars img').each(function(){
-      var sizewidth = $(window).width();
-      var sizeheight = 500;
-      $(this).css({'margin-left': Math.round(Math.random() * (sizewidth/60) + 2 )  + "%" }); 
-      $(this).css({'margin-top': Math.round(Math.random() * (sizeheight/45) + 2 )  + "%" });
+      $(this).css({'margin-left': Math.round(Math.random() * 20 + 1)  + "%" }); 
+      $(this).css({'margin-top': Math.round(Math.random() * 20 + 1)  + "%" });
       var y = Math.floor(Math.random()*5+1);
       $(this).append().css({"height" : y + "%"});
     });
@@ -45,9 +43,6 @@ window.CodeSchool = {
       "transform-origin-x" : windowwidth/3 + "px",
       "-webkit-transform-origin-x" : windowwidth/3 + "px"
     });
-
-   
-
   },
 
 

@@ -1,13 +1,19 @@
-
 html body{
   padding-left: 0px;
   line-height: 1.2;
   background-color: #00c2cc;
 }
 
-.container{
-  background-color: #00c2cc;
-  width: 100%;
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'langdonregular', Verdana;
+  margin-top: 20px;
+}
+
+p{
+  font-size: 1em;
+  text-align: left;
 }
 
 #content{
@@ -15,15 +21,6 @@ html body{
   margin: 0px;
   width: auto;
   z-index: 100;
-}
-
-input.LR-share-email-import[value="IMPORT"] {
-  margin-top: 5px;
-}
-
-.LR-site-connect .LR-share-label {
-  margin: 0 0 10px;
-  visibility: visible !important;
 }
 
 .top-bar.nav{
@@ -34,14 +31,11 @@ input.LR-share-email-import[value="IMPORT"] {
 }
 
 .twitter{
-  height: 40px;
-  width: auto;
-  float: right;
-  margin-top: 15px;
+  max-height: 40px;
 }
 
-.LR-site-logo img{
-  max-height: 70px;
+.logo{
+  max-height: 50px;
   float:left;
 }
 
@@ -49,11 +43,6 @@ input.LR-share-email-import[value="IMPORT"] {
   background-color: #777;
   height: 20px;
   width: 100%;
-  float:right;
-}
-
-.seperate:last-child{
-  float:none;
 }
 
 div.header{
@@ -64,6 +53,17 @@ div.header{
   aniamtion: none/9;
   -webkit-animation: night 80s infinite;
   background-color: indigo;
+  float:none;
+}
+
+.header h2{
+  color: #fff;
+  font-size: 3.6875em;
+  top: 20px;
+  width: 100%;
+  z-index: 10000000;
+  position: absolute;
+  text-shadow: 1px 1px 5px #444;
 }
 
 @keyframes night{
@@ -164,8 +164,6 @@ img.sun {
   to   {  -webkit-transform: rotate(0deg) translateX(0px); }
 }
 
-
-
 .stars{
   width: inherit;
   position:absolute;
@@ -178,237 +176,12 @@ img.sun {
    position:relative;
 }
 
-.stars_img{
-  position: absolute;
-}
-
-.LR-content{
-  font-family: 'metaplus', Arial, san-serif;
-  font-size: 16px;
-  color:#444444;
-}
-
-.LR-site-logo{
-  max-width: none;
-  margin: 0 auto;
-  position: relative;
-}
-
-.LR-box-container{
-  display: inline-block;
-  position: relative;
-  float: none;
-  text-align: left;
-  width: 100%;
-}
-
-.LR-site-tagline {
-  margin: -10px -60px 0px;
-  font-weight: 300;
-  font-size: 45px;
-  line-height: 1.05em;
-  text-align: right;
-  font-weight: 600;
-  width: 400px;
-}
-
-
-h2.LR-site-tagline.hide-for-small{
-  font-family: 'langdonregular', Helvetica Neue, Verdana;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 64px;
-  top: 20px;
-  width: 100%;
-  z-index: 10000000;
-  position: absolute;
-  border: none;
-  text-align: left;
-  text-align: center;
-  margin: auto 0;
-  text-shadow: 1px 1px 5px #444;
-}
-
 .ruby{
-  height: auto;
-  width: auto;
-  margin: 30px auto 40px auto;
-  display:block;
-  max-height: 150px;
-}
-
-.column p{
-  font-size: 1.25em;
-  text-align: left;
-}
-
-.sign-up{
-  text-align: right;
-}
-
-.LR-sign-up-container{
-  margin: 25px auto 0px auto;
-  float: none;
+  margin: 30px auto;
   display: block;
 }
 
-.LR-sign-up-label{
-  font-style: normal;
-  font-size: 1.3em;
-  padding: 0px 0 0 5px;
-  text-align: left;
-}
-
-.LR-site-share-inner{
-  width: auto;
-}
-
-.LR-box-wrapper{
-  width: 100%;
-  margin: 0px;
-}
-
-input{
-  max-width: 75%;
-}
-
-input.LR-share-email-import{
-  float: right;
-  right: 0px;
-  top: 24px;
-  border: none;
-  color: #ffffff;
-  background-color: #168B47;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#55BA3F), to(#168B47));
-  background-image: -webkit-linear-gradient(top, #55BA3F, #168B47);
-  background-image: -o-linear-gradient(top, #55BA3F, #168B47);
-  background-image: linear-gradient(to bottom, #55BA3F, #168B47);
-  background-image: -moz-linear-gradient(top, #55BA3F, #168B47);
-  background-repeat: repeat-x;
-  letter-spacing: 1px;
-  font-size: 15px;
-  text-align: center;
-  width: 20%;
-  min-width: 48px;
-  border: 1px solid #000;
-}
-
-input[type="email"].LR-sign-up-input.signup-email, input[type="text"].LR-share-link, input[type="text"].LR-share-email-subject, textarea.LR-share-email-message{
-  position: relative;
-  z-index: 1;
-  margin: 0;
-  color: #231F20;
-  background-color: #fff;
-  height: auto;
-  font-size: 12px;
-  padding: 10px 12px 8px 12px;
-  border: 1px solid #000;
-  width: 75%;
-  margin: 0 0 10px;
-}
-
-.LR-share-email-emails, .LR-share-link{
-  float: right;
-}
-
-.LR-box{
-  margin: 0px;
-}
-
-.LR-box-container{
-  width: 100%;
-  padding: 0px;
-}
-
-.LR-box-container.right{
-  border: none;
-  padding-bottom: 70px;
-}
-
-
-.LR-site-description {
-  line-height: inherit;
-  color: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-LR-box LR-clearfix{
-  margin: auto;
-}
-
-.LR-site-share-email, .LR-site-share .LR-site-share-container, .LR-share-label{
-  text-align: left;
-}
-
-.LR-site-social-share, .LR-share-email-subject, .LR-share-email-message{
-  float:right;
-}
-
-.LR-site-connect ul{
-  margin: 0 auto;
-  padding-right: 10px;
-  width: auto;
-}
-
-.LR-connect-icon.connect-twitter {
-  background-image: url("http://gaslight-cdn.s3.amazonaws.com/webschoolcincy/TwitterIcon.png");
-  background-size: 40px;
-  height: 42px;
-  width: 42px;
-  display: block !important;
-  margin-top: 30px;
-}
-
-input.LR-share-email-emails[type="email"]{
-  width: 100%;
-  min-height: 34px;
-}
-
-.LR-sign-up-container-inner input[type="submit"].LR-sign-up-submit, .LR-email-wrapper input[value="IMPORT"].LR-share-email-import{
-  background-color: #f2433d;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2433d), to(#f2433d));
-  background-image: -webkit-linear-gradient(top, #f2433d, #f2433d);
-  background-image: -o-linear-gradient(top, #f2433d, #f2433d);
-  background-image: linear-gradient(to bottom, #f2433d, #f2433d);
-  background-image: -moz-linear-gradient(top, #f2433d, #f2433d);
-  background-repeat: repeat-x;
-  filter: none;
-  background-color: #f2433d;
-  height: 34px\9;
-   height: 34px;
-}
-
-
-
-input[type="submit"].LR-sign-up-submit:hover, input.LR-share-email-import:hover{
-  background-color: #77211e;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#77211e), to(#77211e));
-  background-image: -webkit-linear-gradient(top, #77211e, #77211e);
-  background-image: -o-linear-gradient(top, #77211e, #77211e);
-  background-image: linear-gradient(to bottom, #77211e, #77211e);
-  background-image: -moz-linear-gradient(top, #77211e, #77211e);
-  background-repeat: repeat-x;
-  background-color: #77211e;
-  height: 34px\9;
-}
-
- h2.LR-site-tagline.show-for-small{
-  font-family: 'langdonregular', Helvetica Neue;
-  text-transform: uppercase;
-  color: #444444;
-  width: auto;
-  margin: 0px;
-  text-align: center;
-  font-size: 34px;
-  margin-top: 60px;
-  position: relative;
-  width: 100%;
-  height: 34px\9;
-}
-
-
-_::-ms-reveal, .selector {}
+_::-ms-reveal, .selector {
 
   input[type="submit"].LR-sign-up-submit, input[type='email'].signup-email.LR-sign-up-input, input[type='text'].LR-share-link{
     height: 34px;
@@ -419,12 +192,8 @@ _::-ms-reveal, .selector {}
     animation-name: none;
   }
 
-  h2.LR-site-tagline.hide-for-small{
+  h2.hide-for-small{
     padding: 50px;
-  }
-
-  input[type="email"].LR-sign-up-input{
-    height: 34px;
   }
 
 }
@@ -433,10 +202,6 @@ _::-ms-reveal, .selector {}
   .LR-sign-up-container-inner input[type="submit"].LR-sign-up-submit{
     height: 35px;
     padding-top: 6px !important;
-  }
-
-  input.LR-share-email-emails[type="email"], input.LR-share-email-import, input.LR-sign-up-input.signup-email[type="email"]{
-    height: 35px;
   }
 
   img.moon {
@@ -458,118 +223,15 @@ _::-ms-reveal, .selector {}
     -webkit-animation: none;
   }
 
-  .LR-sign-up-container{
-    margin: 25px auto 0px auto;
-    float: none;
-    display: block;
-    width: 100%;
-    position: relative;
+  .seperate{
+    height: 10px;
   }
 
-
-  span.LR-sign-up-label{
-    margin: 0px;
-    padding: 0px;
-    line-height: 1.2;
+  .ruby {
+    margin: 0px auto 30px;
   }
 
-  input[type="email"].LR-share-email-emails{
-    display: block;
-    height: auto;
-    position: relative;
-    float: none;
-    margin: 0 auto;
-    paddding-right: 0px;
-  }
-
-  input.LR-share-email-import{
-    display: block;
-    width: 100%;
-    margin-top: -20px;
-    height: auto;
-    position: relative;
-    margin-bottom: 40px;
-    float:none;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .LR-site-social-share ul{
-    display:inline-block;
-    margin: auto 0;
-    float:none;
-  }
-
-  .LR-sharing-page .LR-connect-share-links{
-    width: 100%;
-  }
-
-  .LR-site-social-share, .LR-share-email-subject, .LR-share-email-message{
-    float:none;
-  }
-
-  .LR-site-share-email, .LR-site-share .LR-site-share-container, .LR-share-label{
-    text-align: center;
-  }
-
-  input[type="email"].LR-sign-up-input.signup-email, input[type="text"].LR-share-link, input[type="text"].LR-share-email-subject, textarea.LR-share-email-message{
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-
-  input[type="text"].LR-share-link{
-    float:none;
-  }
-
-  .LR-connect-icon.connect-twitter{
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    float: none;
-    margin: 20px auto;
-  }
-
-  img.twitter{
-    margin-top: 5px;
-  }
-
-  .LR-pwd-lr{
-    margin: -38px auto 10px;
-  }
-
-  img.moon {
-    width: 10%;
-    z-index: 10000;
-    margin-top: 20px;
-    margin-bottom: -40px;
-    float: left;
-    left: 5%;
-    position: absolute;
-    top: 50%;
-  }
-
-  .LR-site-connect ul{
-    width: 100%;
-  }
-
-  .LR-content .LR-connect-share-links li{
-    margin: 0 auto;
-    float: none;
-    display: block;
-  }
-
-  h2.LR-site-tagline.hide-for-small{
+  h2.hide-for-small{
     display: none;
-  }
-
-  input.LR-share-email-emails[type="email"]{
-    padding-right: 0px;
-  }
-}
-
-@media only screen and (min-device-width : 410px) and (max-device-width : 900px){
-
-  .twitter{
-    margin-top: -5px;
   }
 }
