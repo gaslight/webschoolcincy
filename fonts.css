@@ -1,0 +1,35 @@
+/* Header typeface */
+@font-face {
+    font-family: 'langdonregular';
+    src: url('http://cdn.gaslight.co/webschoolcincy/langdon-webfont.eot');
+    src: url('http://cdn.gaslight.co/webschoolcincy/langdon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://cdn.gaslight.co/webschoolcincy/langdon-webfont.woff') format('woff'),
+         url('http://cdn.gaslight.co/webschoolcincy/langdon-webfont.ttf') format('truetype'),
+         url('http://cdn.gaslight.co/webschoolcincy/langdon-webfont.svg#langdonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'metaplus';
+    src: url('http://cdn.gaslight.co/webschoolcincy/mep-webfont.eot');
+    src: url('http://cdn.gaslight.co/webschoolcincy/mep-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://cdn.gaslight.co/webschoolcincy/mep-webfont.woff') format('woff'),
+         url('http://cdn.gaslight.co/webschoolcincy/mep-webfont.ttf') format('truetype'),
+         url('http://cdn.gaslight.co/webschoolcincy/mep-webfont.svg#metaplusbook-romanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metaplus';
+    src: url('http://cdn.gaslight.co/webschoolcincy/mepbr-webfont.eot');
+    src: url('http://cdn.gaslight.co/webschoolcincy/mepbr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://cdn.gaslight.co/webschoolcincy/mepbr-webfont.woff') format('woff'),
+         url('http://cdn.gaslight.co/webschoolcincy/mepbr-webfont.ttf') format('truetype'),
+         url('http://cdn.gaslight.co/webschoolcincy/mepbr-webfont.svg#metaplusbold-romanregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
