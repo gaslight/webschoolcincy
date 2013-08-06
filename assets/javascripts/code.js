@@ -7,7 +7,7 @@ window.CodeSchool = {
     //if iPhone, don't move moon
     
 
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
       return false;
     
     } else if ($.browser.msie){
@@ -39,13 +39,12 @@ window.CodeSchool = {
 
     $('.moon, .sun').append().css({
       "transform-origin-y" : (headerheight/4) - 50 + "px",
-    "-webkit-transform-origin-y" : (headerheight/4) - 50 + "px",
+      "-webkit-transform-origin-y" : (headerheight/4) - 50 + "px",
       "transform-origin-x" : windowwidth/3 + "px",
       "-webkit-transform-origin-x" : windowwidth/3 + "px"
     });
   },
-
-
+/*
   //Stars Fade In
   fadeStars: function(){
       $('.stars').show(100);
@@ -55,19 +54,19 @@ window.CodeSchool = {
   hideStars: function(){
      $('.stars').fadeOut(100);
   },
-
+*/
   moveCheck: function(){
     $('.moon_move, .sun_move').on("webkitAnimationEnd oanimationend msAnimationEnd animationend", function() {
       if($(this).hasClass("moon_move")){
         
-        CodeSchool.hideStars();
+       // CodeSchool.hideStars();
         
         $('.moon').toggleClass('moon_move');
         $('.sun').toggleClass('sun_move');
         CodeSchool.moveCheck();
       } else if ($(this).hasClass("sun_move")){
         
-        CodeSchool.fadeStars();
+       // CodeSchool.fadeStars();
         
         $('.sun').toggleClass('sun_move');
         $('.moon').toggleClass('moon_move');
@@ -76,7 +75,6 @@ window.CodeSchool = {
     });
   }
 }
-
   
 $( document ).ready(function() {
   CodeSchool.start();

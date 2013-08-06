@@ -1,0 +1,22 @@
+/* Header typeface */
+@font-face {
+    font-family: 'langdonregular';
+    src: url('https://s3.amazonaws.com/gaslight-cdn/webschoolcincy/langdon-webfont.eot');
+    src: url('https://s3.amazonaws.com/gaslight-cdn/webschoolcincy/langdon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3.amazonaws.com/gaslight-cdn/webschoolcincy/langdon-webfont.woff') format('woff'),
+         url('https://s3.amazonaws.com/gaslight-cdn/webschoolcincy/langdon-webfont.ttf') format('truetype'),
+         url('https://s3.amazonaws.com/gaslight-cdn/webschoolcincy/langdon-webfont.svg#langdonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'metaplus';
+    src: url('https://s3.amazonaws.com/gaslight-cdn/webschoolcincy/mep-webfont.eot');
+    src: url('https://s3.amazonaws.com/gaslight-cdn/webschoolcincy/mep-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3.amazonaws.com/gaslight-cdn/webschoolcincy/mep-webfont.woff') format('woff'),
+         url('https://s3.amazonaws.com/gaslight-cdn/webschoolcincy/mep-webfont.ttf') format('truetype'),
+         url('https://s3.amazonaws.com/gaslight-cdn/webschoolcincy/mep-webfont.svg#metaplusbook-romanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
