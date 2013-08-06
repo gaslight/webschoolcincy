@@ -19,17 +19,4 @@
          url('fonts/mep-webfont.svg#metaplusbook-romanregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'metaplus';
-    src: url('fonts/mepbr-webfont.eot');
-    src: url('fonts/mepbr-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/mepbr-webfont.woff') format('woff'),
-         url('fonts/mepbr-webfont.ttf') format('truetype'),
-         url('fonts/mepbr-webfont.svg#metaplusbold-romanregular') format('svg');
-    font-weight: bold;
-    font-style: normal;
-
 }
