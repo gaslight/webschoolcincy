@@ -11,7 +11,7 @@
   <body>
     <div id="content">
         <nav class="top-bar nav">
-          <div class="column large-6 small-8">
+          <div class="column large-6 small-9">
             <img src="http://gaslight-cdn.s3.amazonaws.com/webschoolcincy/logo.png" class="logo" alt="Site Logo"/>
           </div>
           <div class="column large-1 small-3">
@@ -49,21 +49,21 @@
       </div>
       <div class="seperate"></div>
       <div class="show-for-small small-12 small-centered column">
-        <h2>
+        <h2 class="mobile">
           Creating passionate developers.
         </h2>
       </div>
       <div class="row">
         <div class="column large-12 small-12">
-          <img src="http://cdn.gaslight.co/webschoolcincy/ruby.png" class="ruby large-2 centered small-4" alt="ruby"/> 
+          <img src="http://cdn.gaslight.co/webschoolcincy/ruby.png" class="ruby large-2 centered small-2" alt="ruby"/> 
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="column large-8 large-centered">
+      <div class="column large-8 large-centered small-centered small-10">
           <p>Potential <b>students and sponsors</b> are encouraged to signup for more info:</p>
           <div id="wufoo-w7x2z1">
-            Fill out my <a href="http://gaslight.wufoo.com/forms/w7x2z1">online form</a>.
+            Fill out my <a href="http://gaslight.wufoo.com/forms/w7x2z1" target="_blank">online form</a>.
           </div>
           <p>We're launching a full-time six month <b>Web developer training</b> program in <b>Cincinnati, OH</b> by <b>Spring 2014.</b></p>
           <p>Students will be taught <b>Ruby on Rails</b> by experienced developers passionate about their profession. Sponsors will be granted access to the students over the course of their studies.</p>
@@ -73,19 +73,16 @@
 </html>
 
 <script type="text/javascript">var w7x2z1;(function(d, t) {
-  var s = d.createElement(t), options = {
-  'userName':'gaslight', 
-  'formHash':'w7x2z1', 
-  'autoResize':true,
-  'height':'242',
-  'async':true,
-  'header':'show'};
-  s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-  s.onload = s.onreadystatechange = function() {
-  var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-  try { w7x2z1 = new WufooForm();w7x2z1.initialize(options);w7x2z1.display(); } catch (e) {}};
-  var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-  })(document, 'script');
-</script>
-    
-   
+var s = d.createElement(t), options = {
+'userName':'gaslight', 
+'formHash':'w7x2z1', 
+'autoResize':true,
+'height':'242',
+'async':true,
+'header':'hide'};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { w7x2z1 = new WufooForm();w7x2z1.initialize(options);w7x2z1.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
