@@ -1,0 +1,271 @@
+/* line 3, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+html body {
+  padding-left: 0px;
+  line-height: 1.2;
+  background-color: #00c2cc; }
+
+/* line 9, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+iframe[style] {
+  display: inline;
+  margin-bottom: 10px; }
+
+/* line 14, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'langdonregular', Verdana;
+  margin-top: 20px; }
+
+/* line 21, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+h2.mobile {
+  font-size: 1.75em;
+  color: #333;
+  font-weight: normal; }
+
+/* line 27, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+p {
+  font-size: 1em;
+  text-align: left;
+  font-family: 'metaplus', Verdana; }
+
+/* line 33, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+#content {
+  padding: 0;
+  margin: 0px;
+  width: auto;
+  z-index: 100; }
+
+/* line 40, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+.top-bar.nav {
+  padding: 20px 40px;
+  background-color: #444;
+  margin-bottom: 0px;
+  height: auto; }
+
+/* line 47, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+.twitter {
+  max-height: 40px; }
+
+/* line 51, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+.logo {
+  max-height: 50px;
+  float: left; }
+
+/* line 56, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+.seperate {
+  background-color: #777;
+  height: 20px;
+  width: 100%; }
+
+/* line 62, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+div.header {
+  position: relative;
+  padding: 0px;
+  overflow: hidden;
+  animation: night 80s infinite;
+  aniamtion: none/9;
+  -webkit-animation: night 80s infinite;
+  background-color: indigo;
+  float: none; }
+
+/* line 73, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+.header h2 {
+  color: #fff;
+  font-size: 3.6875em;
+  top: 20px;
+  width: 100%;
+  z-index: 10000000;
+  position: absolute;
+  text-shadow: 1px 1px 5px #444; }
+
+@keyframes night {
+  /* line 84, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  0% {
+    background-color: indigo; }
+
+  /* line 87, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  50% {
+    background-color: midnightblue; }
+
+  /* line 90, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  75% {
+    background-color: lightblue; }
+
+  /* line 93, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  95% {
+    background-color: #f2433d; }
+
+  /* line 96, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  100% {
+    background-color: indigo; } }
+
+@-webkit-keyframes night {
+  /* line 104, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  0% {
+    background-color: indigo; }
+
+  /* line 107, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  50% {
+    background-color: midnightblue; }
+
+  /* line 110, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  75% {
+    background-color: lightblue; }
+
+  /* line 113, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  95% {
+    background-color: #f2433d; }
+
+  /* line 116, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  100% {
+    background-color: indigo; } }
+
+/* line 121, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+img.buildings {
+  width: 100%;
+  max-width: 900px;
+  margin-top: 60px;
+  z-index: 50;
+  position: relative;
+  margin-right: 0px;
+  float: right; }
+
+/* line 132, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+img.moon {
+  width: 10%;
+  position: absolute;
+  top: 500px;
+  top: 50% \9;
+  left: 5% \9;
+  z-index: 1;
+  max-height: 150px;
+  width: auto; }
+
+/* line 143, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+.moon_move {
+  animation: moon 40s linear 1;
+  -webkit-animation: moon 40s linear 1; }
+
+@keyframes moon {
+  /* line 149, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  from {
+    transform: rotate(180deg) translateX(0px); }
+
+  /* line 150, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  to {
+    transform: rotate(0deg) translateX(0px); } }
+
+@-webkit-keyframes moon {
+  /* line 154, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  from {
+    -webkit-transform: rotate(180deg) translateX(0px); }
+
+  /* line 155, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  to {
+    -webkit-transform: rotate(0deg) translateX(0px); } }
+
+/* line 158, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+img.sun {
+  width: 10%;
+  position: absolute;
+  top: 500px;
+  max-height: 150px;
+  width: auto; }
+
+/* line 166, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+.sun_move {
+  animation: sun 40s linear;
+  -webkit-animation: sun 40s linear; }
+
+@keyframes sun {
+  /* line 172, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  from {
+    transform: rotate(180deg) translateX(0px); }
+
+  /* line 173, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  to {
+    transform: rotate(0deg) translateX(0px); } }
+
+@-webkit-keyframes sun {
+  /* line 177, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  from {
+    -webkit-transform: rotate(180deg) translateX(0px); }
+
+  /* line 178, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  to {
+    -webkit-transform: rotate(0deg) translateX(0px); } }
+
+/* line 181, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+.stars {
+  width: inherit;
+  position: absolute;
+  top: 0px;
+  padding: 10px;
+  height: 500px; }
+
+/* line 189, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+.stars img {
+  position: relative; }
+
+/* line 193, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+.ruby {
+  margin: 30px auto;
+  display: block; }
+
+/* line 198, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+input.email, input.button {
+  font-size: 20px; }
+
+/* line 202, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+input.button {
+  border-color: #f44d45;
+  background-color: #f44d45;
+  font-weight: bold; }
+  /* line 207, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  input.button:hover {
+    background-color: #f11f15; }
+
+/* line 214, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+_::-ms-reveal input[type="submit"].LR-sign-up-submit, _::-ms-reveal input[type='email'].signup-email.LR-sign-up-input, _::-ms-reveal input[type='text'].LR-share-link, .selector input[type="submit"].LR-sign-up-submit, .selector input[type='email'].signup-email.LR-sign-up-input, .selector input[type='text'].LR-share-link {
+  height: 34px;
+  max-height: none; }
+/* line 219, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+_::-ms-reveal div.header, .selector div.header {
+  animation-name: none; }
+/* line 223, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+_::-ms-reveal h2.hide-for-small, .selector h2.hide-for-small {
+  padding: 50px; }
+
+@-moz-document url-prefix() {
+  /* line 230, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  .LR-sign-up-container-inner input[type="submit"].LR-sign-up-submit {
+    height: 35px;
+    padding-top: 6px !important; }
+
+  /* line 235, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  img.moon {
+    top: 50%;
+    left: 5%; }
+
+  /* line 240, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  div.header {
+    animation-name: none; } }
+
+/* Insert CSS overrides here */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* line 249, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  div.header {
+    animation: none;
+    -webkit-animation: none; }
+
+  /* line 254, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  .seperate {
+    height: 10px; }
+
+  /* line 258, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  .ruby {
+    margin: 0px auto 30px; }
+
+  /* line 262, /Users/cdmwebs/dev/Sites/gaslight/webschoolcincy/source/stylesheets/codeschool.scss */
+  h2.hide-for-small {
+    display: none; } }
