@@ -195,6 +195,11 @@ img.sun {
   display: block;
 }
 
+input.email {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
 input.email, input.button {
   font-size: 20px;
 }
