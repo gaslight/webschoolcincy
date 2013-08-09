@@ -1,3 +1,5 @@
+$buttonColor: rgb(244, 77, 69);
+
 html body{
   padding-left: 0px;
   line-height: 1.2;
@@ -191,6 +193,20 @@ img.sun {
 .ruby{
   margin: 30px auto;
   display: block;
+}
+
+input.email, input.button {
+  font-size: 20px;
+}
+
+input.button {
+  border-color: $buttonColor;
+  background-color: $buttonColor;
+  font-weight: bold;
+
+  &:hover {
+    background-color: darken($buttonColor, 10);
+  }
 }
 
 _::-ms-reveal, .selector {
