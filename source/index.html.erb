@@ -1,0 +1,76 @@
+---
+title: Web School Cincinnati
+---
+
+<div id="content">
+  <nav class="top-bar nav">
+    <div class="column large-6 small-9">
+      <%= image_tag('logo.png', class: 'logo', alt: 'Web School Cincinnati') %>
+    </div>
+    <div class="column large-1 small-3">
+      <a href="https://twitter.com/webschoolcincy" target="_blank">
+        <%= image_tag('TwitterIcon.png', class: 'twitter', alt: 'Follow Web School Cincinnati on Twitter') %>
+      </a>
+    </div>
+  </nav>
+
+  <div class="seperate"></div>
+
+  <div class="column large-12 header hide-for-small">
+    <%= image_tag('moon.png', class: 'moon moon_move') %>
+    <%= image_tag('sun.png', class: 'sun') %>
+    <%= image_tag('buildings.png', class: 'buildings show-for-xlarge') %>
+
+    <div class="stars hide-for-small">
+      <% 4.times do %>
+        <% 4.times do |i| %>
+          <%= image_tag("star#{i + 1}.png") %>
+        <% end %>
+      <% end %>
+    </div>
+
+    <%= image_tag("stars_mobile.png", class: 'stars_img show-for-small') %>
+    <%= image_tag("buildings_mobile.png", class: 'buildings show-for-large-down') %>
+
+    <h2 class="hide-for-small">Creating passionate developers.</h2>
+  </div>
+
+  <div class="seperate"></div>
+
+  <div class="show-for-small small-12 small-centered column">
+    <h2 class="mobile">Creating passionate developers.</h2>
+  </div>
+
+  <div class="row">
+    <div class="columns large-8 offset-by-one">
+      <h2>Web School Cincinnati</h2>
+      <p>We're launching a full-time six month <b>Web developer training</b> program in <b>Cincinnati, OH</b> by <b>Spring 2014.</b></p>
+
+      <div id="mc_embed_signup">
+        <form action="http://gaslight.us4.list-manage1.com/subscribe/post?u=8c64d42f5af77dfcaa8d23c71&amp;id=e859487c5e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div class="mc-field-group">
+            <div class="row collapse">
+              <div class="small-7 columns">
+                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address" >
+              </div>
+              <div class="small-5 columns">
+                <input type="submit" value="Send me info!" name="subscribe" id="mc-embedded-subscribe" class="button prefix">
+              </div>
+            </div>
+          </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+        </form>
+      </div>
+
+      <p>Students will be taught <b>Ruby on Rails</b> by experienced developers passionate about their profession. Sponsors will be granted access to the students over the course of their studies.</p>
+    </div>
+    <div class="columns large-3">
+      <%= image_tag("ruby.png", class: 'ruby') %>
+    </div>
+  </div>
+</div>
+
+
