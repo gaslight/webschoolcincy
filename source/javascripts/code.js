@@ -4,9 +4,6 @@ window.CodeSchool = {
     var screenHeight = $(window).height();
     var screenWidth = $(window).width();
     
-    //if iPhone, don't move moon
-    
-
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
       return false;
     
@@ -44,17 +41,7 @@ window.CodeSchool = {
       "-webkit-transform-origin-x" : windowwidth/3 + "px"
     });
   },
-/*
-  //Stars Fade In
-  fadeStars: function(){
-      $('.stars').show(100);
-  },
 
-  //Stars Fade Out
-  hideStars: function(){
-     $('.stars').fadeOut(100);
-  },
-*/
   moveCheck: function(){
     $('.moon_move, .sun_move').on("webkitAnimationEnd oanimationend msAnimationEnd animationend", function() {
       if($(this).hasClass("moon_move")){
@@ -76,7 +63,8 @@ window.CodeSchool = {
   }
 }
   
-$( document ).ready(function() {
+$(document).ready(function() {
   CodeSchool.start();
   CodeSchool.styleHeader();
 });
+
